@@ -9,7 +9,7 @@ const LoginPage = () => {
   const [accessToken,setAccessToken] = useState(null);
 
   const { signIn, loaded } = useGoogleLogin({
-    clientId: `329377846205-jingeoks9a709gq29dunev6kfnv6o1ml.apps.googleusercontent.com`,
+    clientId: `185193866210-4lf0g7up2gskph2r7affa4a08g3cujf1.apps.googleusercontent.com`,
     isSignedIn: false,
     uxMode: "popup",
     scope: "profile email",
